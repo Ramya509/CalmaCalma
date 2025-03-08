@@ -292,14 +292,14 @@ def process_user_input(user_input, conversation_history):
 def main():
     # Set up Streamlit page
     st.set_page_config(
-        page_title="Mental Health Jackpot",
+        page_title="Mental Health Chatbot",
         page_icon="🧠",
         layout="wide",
         initial_sidebar_state="expanded"
     )
 
     # App Header
-    st.title("Mental Health Jackpot")
+    st.title("Mental Health Chatbot")
     st.subheader("Your AI-powered mental health companion")
 
     # Initialize session state
@@ -341,7 +341,7 @@ def main():
                 st.session_state.uploaded_resources.append(temp_file_path)
         
         st.header("About")
-        st.write("""Mental Health Jackpot provides an interactive mental health screening, 
+        st.write("""Mental Health Chatbot provides an interactive mental health screening, 
                  analysis, and personalized recommendations through AI-powered conversations.""")
         
         st.header("Disclaimer")
