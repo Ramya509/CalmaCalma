@@ -2,3 +2,4 @@ streamlit
 crewai
 crewai[tools]
 pysqlite3-binary
+databricks
