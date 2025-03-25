@@ -1,2 +1,3 @@
 # CalmaCalma
-Mental health chatbot using AI Agents
+Mental health chatbot using AI Agents using Gemini.
+
