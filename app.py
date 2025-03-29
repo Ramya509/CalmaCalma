@@ -16,7 +16,7 @@ from crewai.knowledge.source.pdf_knowledge_source import PDFKnowledgeSource
 
 # Environment setup - Set your API keys here
 os.environ["SERPER_API_KEY"] = "59b49b33b3013d2294c8ed1e740afdc2e33c592d"
-os.environ["GEMINI_API_KEY"] = "AIzaSyBNDeEt_mq7ZM_QA3L_7ScjoNjOSw794LA"
+os.environ["GEMINI_API_KEY"] = "AIzaSyCV3ur1Vx4nlMhJutujb7n236DCfN3PJfA"
 
 # Define Pydantic model for structured output
 class MentalHealthAssessment(BaseModel):
